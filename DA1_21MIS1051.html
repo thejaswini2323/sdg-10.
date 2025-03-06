@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reduced Inequalities</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(to right, #800000, #ff4d4d);
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        .section {
+            padding: 50px;
+            background: white;
+            margin: 20px auto;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+            opacity: 0;
+            transition: opacity 1s ease-in-out;
+        }
+
+        h1, h2 {
+            color: #800000;
+            font-style: bold;
+        }
+
+        p, ol, ul {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        ol, ul {
+            padding-left: 20px;
+        }
+
+        strong {
+            color: #cc0000;
+            font-size: 22px;
+        }
+
+        .responsive-img {
+            width: 70%;
+            max-width: 300px;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 1s ease-out, transform 1s ease-out;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        @media (max-width: 768px) {
+            .section {
+                width: 95%;
+                padding: 30px;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#intro">Introduction</a></li>
+                <li><a href="#targets">SDG 10 Targets</a></li>
+                <li><a href="#problem">Problem</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#solutions">Solutions</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="intro" class="section fade-in">
+        <h1><b>REDUCED INEQUALITIES (SDG 10)</b></h1>
+        <img src="image.png" alt="Reduced Inequalities" class="responsive-img">
+        <p>Reducing inequality within and among countries to ensure social, economic, and political inclusion of all.</p>
+    </section>
+    
+    <section id="targets" class="section fade-in">
+        <h2><b>KEY TARGET OF SDG 10</b></h2>
+        <ol>
+            <li>Reduce Income Inequality – Achieve sustained income growth for the bottom 40% of the population at 
+                a rate higher than the national average.</li>
+            <li>Promote Social, Economic, and Political Inclusion – Ensure equal opportunities and reduce inequalities based on age, sex, disability, race, ethnicity, origin, religion, or economic status.</li>
+            <li>Eliminate Discriminatory Policies and Practices – Implement policies to promote equality and eliminate discriminatory laws, policies, and practices.</li>
+            <li>Improve Regulation of Financial Markets and Institutions – Ensure better financial inclusion and access to banking, insurance, and financial services for all.</li>
+            <li>Facilitate Safe Migration and Mobility – Promote well-managed migration policies to ensure safe and responsible migration.</li>
+            <li>Ensure Representation in Global Institutions – Strengthen developing countries’ participation in global economic and financial decision-making.</li>
+            <li>Encourage Development Assistance and Investment in Least Developed Countries – Promote foreign direct investment (FDI) and financial aid in developing regions.</li>
+            <li>Reduce Transaction Costs for Remittances – Ensure lower transaction costs for migrant remittances and support faster and safer transfers.</li>
+        </ol>
+    </section>
+    
+    <section id="problem" class="section fade-in">
+        <h2><b>PROBLEM STATEMENT</b></h2>
+        <p>Despite global economic progress, inequalities persist within and among countries, disproportionately affecting marginalized and vulnerable communities. Economic disparities, social exclusion, and discriminatory policies limit access to education, healthcare, and employment opportunities. Unequal wealth distribution, barriers to financial services, and restrictive migration policies further widen the gap between different social and economic groups.
+
+            To achieve SDG 10, it is crucial to eliminate discrimination, promote inclusive policies, and ensure equal opportunities for all, regardless of age, gender, ethnicity, disability, or economic status. Addressing these challenges requires global cooperation, progressive policies, and sustained efforts to create a fair and just society.</p>
+    </section>
+    
+    <section id="events" class="section fade-in">
+        <h2><b>UPCOMING EVENTS</b></h2>
+        <p>
+            <strong>High-Level Political Forum (HLPF) - July 14 to 23, 2025 - New York</strong>
+            <br>this forum will convene under the theme "Advancing sustainable, inclusive, science- and evidence-based solutions for the 2030 Agenda." Discussions will encompass various SDGs, including those related to inequality reduction.
+            <br><strong>World Summit for Social Development - November 4 to 6, 2025</strong>
+            <br>this summit will focus on social development themes, providing a platform to discuss strategies for reducing inequalities and promoting inclusive growth.
+        </p>
+    </section>
+    
+    <section id="solutions" class="section fade-in">
+        <h2><b>SOLUTIONS</b></h2>
+        <p><strong>Economic Inclusion and Fair Policies</strong> - Implement progressive taxation and ensure fair wages for all.
+            Support small businesses and entrepreneurs, especially from marginalized communities.
+            Promote financial inclusion through access to affordable banking and credit services.</p>
+            <br><p><strong>Equal Access to Education and Employment</strong> - Provide scholarships and vocational training for underprivileged students.
+                Enforce anti-discrimination policies in hiring and promotions.
+                Support remote work and flexible job opportunities for people with disabilities.</p>
+            <br><p><strong>Social Protection and Healthcare</strong> - Strengthen social safety nets like pensions, disability benefits, and unemployment aid.
+                Ensure affordable healthcare and medicines for all, especially vulnerable groups.
+                Improve maternal and child healthcare services in rural and underserved areas.</p>
+            <br><p><strong>Digital Inclusion and Connectivity</strong> - Expand internet access and digital literacy programs in low-income areas.
+                Provide affordable technology and online education to bridge the digital divide.
+                Promote remote learning and work opportunities for disadvantaged groups.</p>
+        
+    </section>
+    
+    <section id="contact" class="section fade-in">
+        <h2><b>CONTACT</b></h2>
+        <p><strong>Name:</strong> THEJASWINI H </p>
+        <p><strong>Email:</strong> thejaswini.h2021@vitstudent.ac.in</p>
+    </section>
+    
+    <script>
+        $(document).ready(function(){
+            $(".fade-in").each(function(i) {
+                $(this).delay(i * 300).animate({ opacity: 1 }, 800);
+            });
+        });
+    </script>
+</body>
+</html>
